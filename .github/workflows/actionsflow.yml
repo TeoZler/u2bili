@@ -1,7 +1,7 @@
 name: Daily update
 on:
   schedule:
-    - cron: "0 4 * * *" # GMT+8 12:00
+    - cron: "0 0 * * * ? *" # GMT+8 12:00
   repository_dispatch:
   workflow_dispatch:
     inputs:
