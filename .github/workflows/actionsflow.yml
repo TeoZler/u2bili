@@ -1,7 +1,7 @@
 name: Daily update
 on:
   schedule:
-    - cron: "0 4 * * *" #
+    - cron: "? ? 0 ? ? ? " #
   repository_dispatch:
   workflow_dispatch:
     inputs:
