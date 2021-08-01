@@ -27,8 +27,8 @@ export const bilibiliCookies = process.env["BILIBILI_COOKIE"]
     a[b[0]] = b[1]
     return a
   }, {"FROM_ENV": "true"}) ?? {
-  bili_jct: "FROM_YOUR_BROWSER_COOKIE",
-  DedeUserID: "FROM_YOUR_BROWSER_COOKIE",
-  DedeUserID__ckMd5: "FROM_YOUR_BROWSER_COOKIE",
-  SESSDATA: "FROM_YOUR_BROWSER_COOKIE",
+  bili_jct: "e85c223c4aa785fd2e79030930a04b46",
+  DedeUserID: "1676224501",
+  DedeUserID__ckMd5: "01a6c8317e734bd7",
+  SESSDATA: "7ed78318%2C1643308560%2C114a8%2A81",
 }

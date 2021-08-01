@@ -1,11 +1,10 @@
 on:
   youtube:
     channel_id:
-      - UCwXdFgeE9KYzlDdR7TG9cMw #Flutter
-      - UCsBjURrPoezykLs9EqgamOA #Fireship
-      - UCP7uiEZIqci43m22KDl0sNw #Kotlin by JetBrains
+      - UCkngxfPbmGyGl_RIq4FA3MQ #西园千草
+
     playlist_id:
-      - PL0lo9MOBetEFCNnxB1uZcDGcrPO1Jbpz8 #GitHub Changelog
+      #- PL0lo9MOBetEFCNnxB1uZcDGcrPO1Jbpz8 #GitHub Changelog
     config:
       filterScript: |
         return new Date() - 24 * 3600 * 1000 < new Date(item.pubDate) //Recent 24 hours Only
